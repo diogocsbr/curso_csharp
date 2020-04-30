@@ -7,3 +7,13 @@ C:\Diogo\Curso\001\OlaMundo\aulo002-calculadora\obj\Debug\aulo002-calculadora.cs
 C:\Diogo\Curso\001\OlaMundo\aulo002-calculadora\obj\Debug\aulo002-calculadora.csproj.CoreCompileInputs.cache
 C:\Diogo\Curso\001\OlaMundo\aulo002-calculadora\obj\Debug\aulo002-calculadora.exe
 C:\Diogo\Curso\001\OlaMundo\aulo002-calculadora\obj\Debug\aulo002-calculadora.pdb
+C:\Diogo\Curso\GitHub\curso_csharp\aulo002-calculadora\obj\Debug\aulo002-calculadora.csprojAssemblyReference.cache
+C:\Diogo\Curso\GitHub\curso_csharp\aulo002-calculadora\obj\Debug\aulo002_calculadora.Form1.resources
+C:\Diogo\Curso\GitHub\curso_csharp\aulo002-calculadora\obj\Debug\aulo002_calculadora.Properties.Resources.resources
+C:\Diogo\Curso\GitHub\curso_csharp\aulo002-calculadora\obj\Debug\aulo002-calculadora.csproj.GenerateResource.cache
+C:\Diogo\Curso\GitHub\curso_csharp\aulo002-calculadora\obj\Debug\aulo002-calculadora.csproj.CoreCompileInputs.cache
+C:\Diogo\Curso\GitHub\curso_csharp\aulo002-calculadora\obj\Debug\aulo002-calculadora.exe
+C:\Diogo\Curso\GitHub\curso_csharp\aulo002-calculadora\obj\Debug\aulo002-calculadora.pdb
+C:\Diogo\Curso\GitHub\curso_csharp\aulo002-calculadora\bin\Debug\aulo002-calculadora.exe.config
+C:\Diogo\Curso\GitHub\curso_csharp\aulo002-calculadora\bin\Debug\aulo002-calculadora.exe
+C:\Diogo\Curso\GitHub\curso_csharp\aulo002-calculadora\bin\Debug\aulo002-calculadora.pdb
