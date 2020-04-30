@@ -1,0 +1,10 @@
+C:\Diogo\Curso\001\OlaMundo\OlaMundoWin\bin\Debug\OlaMundoWin.exe.config
+C:\Diogo\Curso\001\OlaMundo\OlaMundoWin\bin\Debug\OlaMundoWin.exe
+C:\Diogo\Curso\001\OlaMundo\OlaMundoWin\bin\Debug\OlaMundoWin.pdb
+C:\Diogo\Curso\001\OlaMundo\OlaMundoWin\obj\Debug\OlaMundoWin.csprojAssemblyReference.cache
+C:\Diogo\Curso\001\OlaMundo\OlaMundoWin\obj\Debug\OlaMundoWin.Properties.Resources.resources
+C:\Diogo\Curso\001\OlaMundo\OlaMundoWin\obj\Debug\OlaMundoWin.csproj.GenerateResource.cache
+C:\Diogo\Curso\001\OlaMundo\OlaMundoWin\obj\Debug\OlaMundoWin.csproj.CoreCompileInputs.cache
+C:\Diogo\Curso\001\OlaMundo\OlaMundoWin\obj\Debug\OlaMundoWin.exe
+C:\Diogo\Curso\001\OlaMundo\OlaMundoWin\obj\Debug\OlaMundoWin.pdb
+C:\Diogo\Curso\001\OlaMundo\OlaMundoWin\obj\Debug\OlaMundoWin.OlaMundo.resources

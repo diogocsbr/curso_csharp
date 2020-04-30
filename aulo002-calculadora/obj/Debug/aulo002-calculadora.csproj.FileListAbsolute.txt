@@ -1,0 +1,9 @@
+C:\Diogo\Curso\001\OlaMundo\aulo002-calculadora\bin\Debug\aulo002-calculadora.exe.config
+C:\Diogo\Curso\001\OlaMundo\aulo002-calculadora\bin\Debug\aulo002-calculadora.exe
+C:\Diogo\Curso\001\OlaMundo\aulo002-calculadora\bin\Debug\aulo002-calculadora.pdb
+C:\Diogo\Curso\001\OlaMundo\aulo002-calculadora\obj\Debug\aulo002-calculadora.csprojAssemblyReference.cache
+C:\Diogo\Curso\001\OlaMundo\aulo002-calculadora\obj\Debug\aulo002_calculadora.Properties.Resources.resources
+C:\Diogo\Curso\001\OlaMundo\aulo002-calculadora\obj\Debug\aulo002-calculadora.csproj.GenerateResource.cache
+C:\Diogo\Curso\001\OlaMundo\aulo002-calculadora\obj\Debug\aulo002-calculadora.csproj.CoreCompileInputs.cache
+C:\Diogo\Curso\001\OlaMundo\aulo002-calculadora\obj\Debug\aulo002-calculadora.exe
+C:\Diogo\Curso\001\OlaMundo\aulo002-calculadora\obj\Debug\aulo002-calculadora.pdb
