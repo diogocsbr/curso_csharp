@@ -35,57 +35,63 @@
             this.lblResultado = new System.Windows.Forms.Label();
             this.btnCalcular = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.cboOperacao = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.cboOperacao = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // txtValor1
             // 
-            this.txtValor1.Location = new System.Drawing.Point(33, 54);
+            this.txtValor1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtValor1.Location = new System.Drawing.Point(33, 89);
             this.txtValor1.Name = "txtValor1";
-            this.txtValor1.Size = new System.Drawing.Size(100, 20);
+            this.txtValor1.Size = new System.Drawing.Size(100, 26);
             this.txtValor1.TabIndex = 0;
             // 
             // txtValor2
             // 
-            this.txtValor2.Location = new System.Drawing.Point(224, 54);
+            this.txtValor2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtValor2.Location = new System.Drawing.Point(239, 89);
             this.txtValor2.Name = "txtValor2";
-            this.txtValor2.Size = new System.Drawing.Size(100, 20);
+            this.txtValor2.Size = new System.Drawing.Size(105, 26);
             this.txtValor2.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(30, 38);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(38, 66);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 13);
+            this.label1.Size = new System.Drawing.Size(59, 20);
             this.label1.TabIndex = 3;
             this.label1.Text = "Valor 1";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(221, 38);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(246, 66);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(40, 13);
+            this.label2.Size = new System.Drawing.Size(59, 20);
             this.label2.TabIndex = 4;
             this.label2.Text = "Valor 2";
             // 
             // lblResultado
             // 
             this.lblResultado.AutoSize = true;
-            this.lblResultado.Location = new System.Drawing.Point(30, 138);
+            this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.Location = new System.Drawing.Point(29, 164);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(55, 13);
+            this.lblResultado.Size = new System.Drawing.Size(82, 20);
             this.lblResultado.TabIndex = 5;
             this.lblResultado.Text = "Resultado";
             // 
             // btnCalcular
             // 
-            this.btnCalcular.Location = new System.Drawing.Point(33, 96);
+            this.btnCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalcular.Location = new System.Drawing.Point(33, 123);
             this.btnCalcular.Name = "btnCalcular";
-            this.btnCalcular.Size = new System.Drawing.Size(243, 23);
+            this.btnCalcular.Size = new System.Drawing.Size(311, 38);
             this.btnCalcular.TabIndex = 6;
             this.btnCalcular.Text = "Calcular";
             this.btnCalcular.UseVisualStyleBackColor = true;
@@ -111,28 +117,30 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Calculadora";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(135, 66);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(79, 20);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "Operação";
+            // 
             // cboOperacao
             // 
             this.cboOperacao.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboOperacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboOperacao.FormattingEnabled = true;
             this.cboOperacao.Items.AddRange(new object[] {
             "Somar",
             "Subtrair",
             "Multiplicar",
             "Dividir"});
-            this.cboOperacao.Location = new System.Drawing.Point(140, 54);
+            this.cboOperacao.Location = new System.Drawing.Point(139, 89);
             this.cboOperacao.Name = "cboOperacao";
-            this.cboOperacao.Size = new System.Drawing.Size(78, 21);
+            this.cboOperacao.Size = new System.Drawing.Size(94, 28);
             this.cboOperacao.TabIndex = 7;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(152, 38);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(54, 13);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "Operação";
             // 
             // Form1
             // 

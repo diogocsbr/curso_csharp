@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -17,39 +18,43 @@ namespace aulo002_calculadora
             InitializeComponent();
         }
 
+        //validando textbox
+        bool ValidarControles() 
+        {
+            //loop
+            foreach (var ctx in groupBox1.Controls)
+            {
+                //If por Tipo
+                if (typeof(TextBox) == ctx.GetType())
+                {
+                    //verificar se campo está vazio
+                    if (string.IsNullOrWhiteSpace(((TextBox)ctx).Text))
+                    {
+                        //outra conversão
+                        var txt = (TextBox)ctx;
+                        MessageBox.Show("Você precisa digitar o valor no campo",
+                                        "Erro",
+                                        MessageBoxButtons.OK,
+                                        MessageBoxIcon.Warning
+                                        );
+                        txt.Focus();
+
+                        return false;
+                    }
+                }
+            }
+            //controle valido
+            return true;
+        }
+
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            //se for verdade
-            if ( string.IsNullOrWhiteSpace( txtValor1.Text ) )
+            //é falso o que está retornando? (!)
+            if (!ValidarControles())
             {
-                //condicao verdadeira
-                MessageBox.Show("Você precisa digitar o valor 1",
-                    "Erro", 
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Warning
-                    );
-
-                //foco no controle
-                txtValor1.Focus();
-
-                //Não continuar
                 return;
             }
-            if (string.IsNullOrWhiteSpace(txtValor2.Text))
-            {
-                //condicao verdadeira
-                MessageBox.Show("Você precisa digitar o valor 2",
-                    "Erro",
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Warning
-                    );
 
-                //foco no controle
-                txtValor2.Focus();
-
-                //Não continuar
-                return;
-            }
             if ( string.IsNullOrWhiteSpace( cboOperacao.Text) ) 
             {
                 MessageBox.Show("Você precisa selecionar a operação",
@@ -66,28 +71,56 @@ namespace aulo002_calculadora
             int numero1 = Convert.ToInt32( txtValor1.Text );
             int numero2 = Convert.ToInt32( txtValor2.Text );
 
+            int resultado;
 
             if (cboOperacao.Text == "Somar")
             {
-                lblResultado.Text = Convert.ToString(numero1 + numero2);
+                resultado = Somar(numero1, numero2);
             }
             else if (cboOperacao.Text == "Subtrair") 
             {
-                lblResultado.Text = Convert.ToString(numero1 - numero2);
+                resultado = Subtrair(numero1, numero2);
+
             }
             else if (cboOperacao.Text == "Multiplicar") 
             {
-                lblResultado.Text = Convert.ToString(numero1 * numero2);
+                resultado = Multiplicar(numero1, numero2);
             }
             else
             {
                 //dividir
-                lblResultado.Text = Convert.ToString(numero1 / numero2);
+                resultado = Dividir(numero1, numero2);
             }
 
-                                           
-            
+            lblResultado.Text = resultado.ToString();
             //lblResultado.Text =  (numero1 + numero2).ToString();
         }
+
+        int Somar(int vl1, int vl2) 
+        {
+            return vl1 + vl2;  
+        }
+        int Subtrair(int vl1, int vl2) 
+        {
+            return vl1 - vl2;
+        }
+        int Multiplicar(int vl1, int vl2)
+        {
+            return vl1 * vl2;
+        }
+        int Dividir(int vl1, int vl2)
+        {
+            return vl1 / vl2;
+        }
+
+        /***
+         * Apaguei o botão, nós podemos e devemos remover esse código*/
+        //exemplo de botão apagado
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Debug.WriteLine("O Resultado é:" + Somar(100, 50) );
+        }
+
+
     }
 }
