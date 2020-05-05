@@ -1,4 +1,5 @@
-﻿using System;
+﻿using aula004_logica.calculadora;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -121,6 +122,15 @@ namespace aulo002_calculadora
             Debug.WriteLine("O Resultado é:" + Somar(100, 50) );
         }
 
+        private void btnCalcularDll_Click(object sender, EventArgs e)
+        {
+           
 
+
+            Calculadora calc = new Calculadora();
+
+            lblResultado.Text = calc.Somar(txtValor1.Text, txtValor2.Text).ToString() ;
+        
+        }
     }
 }

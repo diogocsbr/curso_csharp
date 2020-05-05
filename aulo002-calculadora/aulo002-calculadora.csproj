@@ -79,5 +79,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\aula004-logica.calculadora\aula004-logica.calculadora.csproj">
+      <Project>{615aad86-017d-4ba2-adfd-2fa12cef310e}</Project>
+      <Name>aula004-logica.calculadora</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

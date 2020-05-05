@@ -37,6 +37,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label3 = new System.Windows.Forms.Label();
             this.cboOperacao = new System.Windows.Forms.ComboBox();
+            this.btnCalcularDll = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -102,6 +103,7 @@
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox1.Controls.Add(this.btnCalcularDll);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.cboOperacao);
             this.groupBox1.Controls.Add(this.label1);
@@ -142,6 +144,16 @@
             this.cboOperacao.Size = new System.Drawing.Size(94, 28);
             this.cboOperacao.TabIndex = 7;
             // 
+            // btnCalcularDll
+            // 
+            this.btnCalcularDll.Location = new System.Drawing.Point(350, 123);
+            this.btnCalcularDll.Name = "btnCalcularDll";
+            this.btnCalcularDll.Size = new System.Drawing.Size(170, 38);
+            this.btnCalcularDll.TabIndex = 9;
+            this.btnCalcularDll.Text = "Calcular da dll";
+            this.btnCalcularDll.UseVisualStyleBackColor = true;
+            this.btnCalcularDll.Click += new System.EventHandler(this.btnCalcularDll_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -167,6 +179,7 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox cboOperacao;
+        private System.Windows.Forms.Button btnCalcularDll;
     }
 }
 
