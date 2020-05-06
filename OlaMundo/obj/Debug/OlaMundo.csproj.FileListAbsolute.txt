@@ -5,3 +5,10 @@ C:\Diogo\Curso\001\OlaMundo\OlaMundo\obj\Debug\OlaMundo.csprojAssemblyReference.
 C:\Diogo\Curso\001\OlaMundo\OlaMundo\obj\Debug\OlaMundo.csproj.CoreCompileInputs.cache
 C:\Diogo\Curso\001\OlaMundo\OlaMundo\obj\Debug\OlaMundo.exe
 C:\Diogo\Curso\001\OlaMundo\OlaMundo\obj\Debug\OlaMundo.pdb
+C:\Diogo\Curso\GitHub\curso_csharp\OlaMundo\bin\Debug\OlaMundo.exe.config
+C:\Diogo\Curso\GitHub\curso_csharp\OlaMundo\bin\Debug\OlaMundo.exe
+C:\Diogo\Curso\GitHub\curso_csharp\OlaMundo\bin\Debug\OlaMundo.pdb
+C:\Diogo\Curso\GitHub\curso_csharp\OlaMundo\obj\Debug\OlaMundo.csprojAssemblyReference.cache
+C:\Diogo\Curso\GitHub\curso_csharp\OlaMundo\obj\Debug\OlaMundo.csproj.CoreCompileInputs.cache
+C:\Diogo\Curso\GitHub\curso_csharp\OlaMundo\obj\Debug\OlaMundo.exe
+C:\Diogo\Curso\GitHub\curso_csharp\OlaMundo\obj\Debug\OlaMundo.pdb

@@ -20,3 +20,4 @@ C:\Diogo\Curso\GitHub\curso_csharp\aulo002-calculadora\bin\Debug\aulo002-calcula
 C:\Diogo\Curso\GitHub\curso_csharp\aulo002-calculadora\bin\Debug\aula004-logica.calculadora.dll
 C:\Diogo\Curso\GitHub\curso_csharp\aulo002-calculadora\bin\Debug\aula004-logica.calculadora.pdb
 C:\Diogo\Curso\GitHub\curso_csharp\aulo002-calculadora\obj\Debug\aulo002-calculadora.csproj.CopyComplete
+C:\Diogo\Curso\GitHub\curso_csharp\aulo002-calculadora\obj\Debug\aulo002_calculadora.frmCalculadora.resources

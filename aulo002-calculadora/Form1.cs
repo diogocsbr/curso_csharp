@@ -124,13 +124,19 @@ namespace aulo002_calculadora
 
         private void btnCalcularDll_Click(object sender, EventArgs e)
         {
-           
-
-
             Calculadora calc = new Calculadora();
+            //lblResultado.Text = calc.Somar(txtValor1.Text, txtValor2.Text).ToString() ;
 
-            lblResultado.Text = calc.Somar(txtValor1.Text, txtValor2.Text).ToString() ;
-        
+            //propriedades
+            calc.Numero1 = Convert.ToInt32(txtValor1.Text);
+            calc.Numero2 = Convert.ToInt32(txtValor2.Text);
+
+            //enum
+            calc.Operacao = Operacoes.Somar;
+
+            calc.RealizarOperacao();
+
+            lblResultado.Text = calc.Resultado.ToString();
         }
     }
 }
