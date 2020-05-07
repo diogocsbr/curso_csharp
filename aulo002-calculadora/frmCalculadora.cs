@@ -11,6 +11,7 @@ using System.Windows.Forms;
 
 namespace aulo002_calculadora
 {
+    public delegate void SimplesMensagemDelegate();
     public partial class frmCalculadora : Form
     {
         String strNumero1;
@@ -18,9 +19,21 @@ namespace aulo002_calculadora
         private string strNumero2;
         bool numero1Preenchido = false;
 
+        aula004_logica.calculadora.Calculadora calc = new Calculadora();
+
+        SimplesMensagemDelegate simplesDel = new SimplesMensagemDelegate(Mensagem);
+
         public frmCalculadora()
         {
             InitializeComponent();
+
+            //fazer funcionar
+            //calc.processouEvent += Calc_processouEvent;
+        }
+
+        static void Mensagem() 
+        {
+            MessageBox.Show("chamado via delegate","C");
         }
 
         //Concatenar o numero1
@@ -73,11 +86,8 @@ namespace aulo002_calculadora
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //TODO: melhorar a chamanda da classe
-            // colocar mensagens de erro Try Catch
-            aula004_logica.calculadora.Calculadora calc = new
-                Calculadora();
-
+            //Chamada do delegate
+            //simplesDel();
             calc.Numero1 = Convert.ToInt32(this.strNumero1);
             calc.Numero2 = Convert.ToInt32(this.strNumero2);
             
@@ -88,6 +98,13 @@ namespace aulo002_calculadora
             txtVisor.Text = calc.Resultado.ToString();
 
             //
+            Reiniciar();
+        }
+
+        //Proxima aula
+        private void Calc_processouEvent()
+        {
+            txtVisor.Text = calc.Resultado.ToString();
             Reiniciar();
         }
 

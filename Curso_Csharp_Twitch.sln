@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aula004-logica.calculadora"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aulla004-ConsomeCalculadora", "aulla004-ConsomeCalculadora\aulla004-ConsomeCalculadora.csproj", "{9FB52074-4328-454C-8748-28F98E0AFB72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aula006-Explicacoes", "aula006-Explicacoes\aula006-Explicacoes.csproj", "{485A50C3-AF5D-494E-99E5-6C7447DE772B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{9FB52074-4328-454C-8748-28F98E0AFB72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FB52074-4328-454C-8748-28F98E0AFB72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FB52074-4328-454C-8748-28F98E0AFB72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{485A50C3-AF5D-494E-99E5-6C7447DE772B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{485A50C3-AF5D-494E-99E5-6C7447DE772B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{485A50C3-AF5D-494E-99E5-6C7447DE772B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{485A50C3-AF5D-494E-99E5-6C7447DE772B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

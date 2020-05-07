@@ -20,6 +20,9 @@ namespace aula004_logica.calculadora
         //teste
         string teste;
 
+        public delegate void processouDelegate();
+        public event processouDelegate processouEvent;
+
         //Propriedade
         public int Numero1 { get; set; }
         public int Numero2 { get; set; }
