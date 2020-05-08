@@ -28,7 +28,13 @@ namespace aulo002_calculadora
             InitializeComponent();
 
             //fazer funcionar
-            //calc.processouEvent += Calc_processouEvent;
+            calc.calcularEvent += Calc_calcularEvent;
+        }
+
+        private void Calc_calcularEvent(object sender, EventArgs e)
+        {
+            txtVisor.Text = calc.Resultado.ToString();
+            Reiniciar();
         }
 
         static void Mensagem() 
@@ -95,18 +101,12 @@ namespace aulo002_calculadora
 
             calc.RealizarOperacao();
 
-            txtVisor.Text = calc.Resultado.ToString();
+            //txtVisor.Text = calc.Resultado.ToString();
 
             //
-            Reiniciar();
+            //Reiniciar();
         }
 
-        //Proxima aula
-        private void Calc_processouEvent()
-        {
-            txtVisor.Text = calc.Resultado.ToString();
-            Reiniciar();
-        }
 
         private void btnDividir_Click(object sender, EventArgs e)
         {

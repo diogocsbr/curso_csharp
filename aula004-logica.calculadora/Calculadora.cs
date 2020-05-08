@@ -20,8 +20,7 @@ namespace aula004_logica.calculadora
         //teste
         string teste;
 
-        public delegate void processouDelegate();
-        public event processouDelegate processouEvent;
+        public event EventHandler calcularEvent;
 
         //Propriedade
         public int Numero1 { get; set; }
@@ -54,6 +53,16 @@ namespace aula004_logica.calculadora
         {
             this.Numero1 = numero1;
             this.Numero2 = numero2;
+        }
+
+        //evento
+        protected virtual void OnProcessou(EventArgs e)
+        {
+            EventHandler handler = calcularEvent;
+            if (handler != null)
+            {
+                handler(this, e);
+            }
         }
 
         //método //função
@@ -102,6 +111,9 @@ namespace aula004_logica.calculadora
                         break;
                     }
             }
+
+            //Chamar o evento
+            OnProcessou(EventArgs.Empty);
         }
 
         //int Subtrair(int vl1, int vl2)
